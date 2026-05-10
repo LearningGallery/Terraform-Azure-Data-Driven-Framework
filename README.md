@@ -1,16 +1,3 @@
-Here are a few enterprise-grade repository name options that clearly communicate the scope and maturity of your project:
-
-* **`azure-enterprise-iac-platform`** (Recommended - Clean and authoritative)
-* **`azure-landing-zone-factory`** (Highlights the automation/generation aspect)
-* **`terraform-azure-data-driven-framework`** (Highlights the specific CSV architectural pattern)
-* **`azure-devsecops-infrastructure-core`** (Emphasizes the security and operations focus)
-
-Below is the comprehensive `README.md`. It is written exactly as it would appear in a Fortune 500 company's internal repository, designed for consumption by SREs, Cloud Architects, and DevOps Engineers.
-
----
-
-### **Copy the text below into your `README.md**`
-
 ```markdown
 # Azure Enterprise IaC Platform
 
