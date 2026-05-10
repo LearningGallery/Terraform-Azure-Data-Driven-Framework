@@ -1,4 +1,3 @@
-```markdown
 # Azure Enterprise IaC Platform
 
 ![Terraform Version](https://img.shields.io/badge/Terraform-%3E%3D%201.2.0-623CE4?logo=terraform)
