@@ -1,0 +1,10 @@
+variable "location" { type = string }
+variable "tags" { type = map(string) }
+variable "resource_groups" { type = map(any) }
+variable "nsgs" { type = map(any) }
+variable "nsg_rules" { type = map(any) }
+variable "bastions" { type = map(any) }
+variable "subnets" { type = map(any) }
+variable "vnet_ids" { type = map(string) }
+variable "subnet_ids" { type = map(string) }
+variable "pip_ids" { type = map(string) }

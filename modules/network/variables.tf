@@ -1,0 +1,11 @@
+variable "location" { type = string }
+variable "tags" { type = map(string) }
+variable "resource_groups" { type = map(any) }
+variable "vnets" { type = map(any) }
+variable "pips" { type = map(any) }
+variable "subnets" { type = map(any) }
+variable "route_tables" { type = map(any) }
+variable "rt_routes" { type = map(any) }
+variable "natgws" { type = map(any) }
+variable "dns_zones" { type = map(any) }
+variable "dns_links" { type = map(any) }
