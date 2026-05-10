@@ -1,0 +1,3 @@
+ResourceType,ProjectCode,Environment,Zone,Tier,Purpose,Indexing,ResourceGroup,SubnetName,OS,AzureVMSeries,AvailabilityZone,DiskType,OSStorageGB,DataStorageGB,Software,SoftwareEOS,OSEOS,AutoScale,vCPU,vRAM,ImagePublisher,ImageOffer,ImageSKU,ImageVersion,Remarks
+vm,prj,u,ia,wet,app,01,rsg-prj-uia-01,sub-prj-uia-wet-vms01,Linux,Standard_D2s_v3,1,Premium_LRS,128,256,Nginx,2030-01,2029-04,false,2,8G,"Canonical","ubuntu-24_04-lts","server","latest",Web_Server
+vm,prj,u,mgmt,mgt,adx,01,rsg-prj-umgmt-01,sub-prj-umgmt-wet-vms01,Windows,Standard_D4s_v3,2,Premium_LRS,128,512,AD,2030-01,2032-01,false,4,16G,"MicrosoftWindowsServer","WindowsServer","2022-datacenter-azure-edition","latest",Domain_Controller

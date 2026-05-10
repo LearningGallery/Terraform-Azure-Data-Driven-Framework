@@ -1,0 +1,7 @@
+SubnetName,ProjectCode,Environment,Zone,Tier,Purpose,Indexing,IPv4AddressSpace,StartingAddress,Size,EnablePrivateSubnet,NATGateway,NetworkSecurityGroup,RouteTable,ServiceEndpoints,ServiceEndpointPolicies,DelegateSubnetToAService,PrivateEndpointNetwork
+sub-prj-uia-wet-ngw01,prj,u,ia,wet,api,01,[10.0.0.0/16],[10.0.0.0],/28,false,None,sgp-prj-uia-wet-ngw01,rut-prj-uia-01,Microsoft.Storage,None,None,"[Network Security Group,Route Table]"
+sub-prj-umgmt-wet-ngw01,prj,u,mgmt,wet,api,01,[192.168.10.0/24],[192.168.10.64],/28,false,None,sgp-prj-umgmt-wet-ngw01,rut-prj-umgmt-01,Microsoft.Storage,None,None,"[Network Security Group,Route Table]"
+AzureBastionSubnet,prj,u,mgmt,bastion,net,01,[192.168.10.0/24],[192.168.10.0],/26,false,None,None,None,None,None,None,None
+AzureBastionSubnet,prj,u,ia,bastion,net,01,[10.0.0.0/16],[10.0.1.0],/26,false,None,None,None,None,None,None,None
+sub-prj-uia-wet-vms01,prj,u,ia,wet,api,01,[10.0.0.0/16],[10.0.0.64],/28,false,None,sgp-prj-uia-wet-vms01,rut-prj-uia-01,None,None,None,"[Network Security Group,Route Table]"
+sub-prj-umgmt-wet-vms01,prj,u,mgmt,wet,api,01,[192.168.10.0/24],[192.168.10.128],/28,false,None,sgp-prj-umgmt-wet-vms01,rut-prj-umgmt-01,None,None,None,"[Network Security Group,Route Table]"

@@ -37,7 +37,7 @@ htmlcov/
 *.h5
 *.pth
 models/
-data/
+#data/
 *.model
 
 # Environment
@@ -65,7 +65,7 @@ Thumbs.db
 *.backup
 crash.log
 crash.*.log
-*.tfvars
+#*.tfvars
 *.tfvars.json
 override.tf
 override.tf.json

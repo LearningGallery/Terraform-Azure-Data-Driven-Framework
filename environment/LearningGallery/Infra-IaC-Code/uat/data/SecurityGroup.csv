@@ -1,0 +1,8 @@
+SecurityGroupName,ProjectCode,Environment,Zone,Tier,Purpose,Indexing,ResourceGroup,NSGRuleName,Priority,Direction,Access,Protocol,SourcePortRange,DestinationPortRange,SourceAddressPrefix,DestinationAddressPrefix,Description
+sgp-prj-uia-wet-vms01,prj,u,ia,wet,api,01,rsg-prj-uia-01,InternetHost_To_IABastion,1000,Inbound,Allow,Tcp,*,22,168.63.129.16,[10.0.0.64/28],To Allow SSH Access from IABastion
+
+sgp-prj-umgmt-wet-vms01,prj,u,mgmt,wet,api,01,rsg-prj-umgmt-01,InternetHost_To_MGMTBastion,1000,Inbound,Allow,Tcp,*,3389,168.63.129.16,[192.168.10.128/26],To Allow RDP Access from MGMTBastion
+
+sgp-prj-uia-wet-ngw01,prj,u,ia,wet,a`pi,01,rsg-prj-uia-01,IA_APIM_To_IE_APIM,1000,Inbound,Allow,Tcp,*,443,VirtualNetwork,[10.0.0.0/28],To Allow APIM Query
+
+sgp-prj-umgmt-wet-ngw01,prj,u,mgmt,wet,api,01,rsg-prj-umgmt-01,MGMT_APIM_To_IE_APIM,1000,Inbound,Allow,Tcp,*,443,VirtualNetwork,[192.168.10.0/26],To Allow APIM Query

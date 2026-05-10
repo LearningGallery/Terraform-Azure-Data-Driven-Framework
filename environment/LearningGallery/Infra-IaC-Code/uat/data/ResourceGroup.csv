@@ -1,0 +1,4 @@
+ResourceGroupName,ProjectCode,Environment,Zone,Indexing
+rsg-prj-uia-01,prj,u,ia,1
+rsg-prj-uie-01,prj,u,ie,1
+rsg-prj-umgmt-01,prj,u,mgmt,1

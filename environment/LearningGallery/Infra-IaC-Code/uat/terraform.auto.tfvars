@@ -1,0 +1,5 @@
+project_code        = "prj"
+environment         = "u"
+cost_center         = "IT01"
+data_classification = "Confidential"
+location            = "southeastasia"

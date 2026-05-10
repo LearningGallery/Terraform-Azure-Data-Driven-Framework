@@ -1,0 +1,5 @@
+PublicIPName,ProjectCode,Environment,Zone,Tier,Purpose,Indexing,ResourceGroup,AllocationMethod,Sku
+pip-prj-uia-wet-ngw01,prj,u,ia,wet,api,01,rsg-prj-uia-01,Static,Standard
+pip-prj-umgmt-wet-ngw01,prj,u,mgmt,wet,api,01,rsg-prj-umgmt-01,Static,Standard
+pip-prj-uia-wet-bst01,prj,u,ia,wet,api,01,rsg-prj-uia-01,Static,Standard
+pip-prj-umgmt-wet-bst01,prj,u,mgmt,wet,api,01,rsg-prj-umgmt-01,Static,Standard

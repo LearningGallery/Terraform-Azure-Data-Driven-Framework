@@ -1,0 +1,3 @@
+NATGateWayName,ProjectCode,Environment,Zone,Tier,Indexing,ResourceGroup,SkuName,PublicIPAddress,VirtualNetwork,SelectSpecificSubnets
+ngw-prj-uia-wet-01,prj,u,ia,wet,01,rsg-prj-uia-01,Standard,pip-prj-uia-wet-ngw01,vnt-prj-uia-01,sub-prj-uia-wet-vms01
+ngw-prj-umgmt-wet-01,prj,u,mgmt,wet,01,rsg-prj-umgmt-01,Standard,pip-prj-umgmt-wet-ngw01,vnt-prj-umgmt-01,sub-prj-umgmt-wet-vms01

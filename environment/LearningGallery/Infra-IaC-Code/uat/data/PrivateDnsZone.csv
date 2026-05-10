@@ -1,0 +1,5 @@
+DnsZoneName,ResourceGroup,LinkedVNets
+privatelink.monitor.azure.com,rsg-prj-umgmt-01,"[vnt-prj-uia-01,vnt-prj-umgmt-01]"
+privatelink.vaultcore.azure.net,rsg-prj-umgmt-01,"[vnt-prj-uia-01,vnt-prj-umgmt-01]"
+privatelink.oms.opinsights.azure.com,rsg-prj-umgmt-01,"[vnt-prj-uia-01,vnt-prj-umgmt-01]"
+privatelink.ods.opinsights.azure.com,rsg-prj-umgmt-01,"[vnt-prj-uia-01,vnt-prj-umgmt-01]"

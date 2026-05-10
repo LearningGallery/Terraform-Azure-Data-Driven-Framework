@@ -1,0 +1,3 @@
+RouteTableName,ProjectCode,Environment,Zone,Indexing,ResourceGroup,DisableBGP,RouteName,AddressPrefix,NextHopType,NextHopIpAddress
+rut-prj-uia-01,prj,u,ia,01,rsg-prj-uia-01,false,To_Firewall,0.0.0.0/0,VirtualAppliance,10.0.1.4
+rut-prj-umgmt-01,prj,u,mgmt,01,rsg-prj-umgmt-01,false,To_Internet,0.0.0.0/0,Internet,None
